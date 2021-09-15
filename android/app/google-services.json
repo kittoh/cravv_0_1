@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "955963280985",
+    "project_id": "cravv-90018",
+    "storage_bucket": "cravv-90018.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:955963280985:android:e17357d1315724cd7aeb48",
+        "android_client_info": {
+          "package_name": "com.likhanima.cravv_0_1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "955963280985-8sobne646tt2b3k82d7dhhd6ab4p5ik1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyABPXXPkgElJFpROTrCSKQS_6V2mRzZri0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "955963280985-8sobne646tt2b3k82d7dhhd6ab4p5ik1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
