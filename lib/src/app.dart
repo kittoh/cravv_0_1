@@ -1,6 +1,6 @@
-import 'package:cravv_0_1/src/screens/authenticate/log_in_page.dart';
-import 'package:cravv_0_1/src/screens/authenticate/register_page.dart';
-import 'package:cravv_0_1/src/screens/home/home_page.dart';
+import 'package:cravv_0_1/src/screens/authenticate/login_screen.dart';
+import 'package:cravv_0_1/src/screens/authenticate/register_screen.dart';
+import 'package:cravv_0_1/src/screens/home/home_screen.dart';
 import 'package:cravv_0_1/src/services/authentication_service.dart';
 import 'package:cravv_0_1/src/wrapper.dart';
 import 'package:flutter/material.dart';
@@ -24,9 +24,9 @@ class MyApp extends StatelessWidget {
         initialRoute: '/',
         routes: {
           '/': (context) => Wrapper(),
-          '/login': (context) => LogInPage(),
-          '/register': (context) => RegisterPage(),
-          '/home': (context) => HomePage(),
+          '/login': (context) => LoginScreen(),
+          '/register': (context) => RegisterScreen(),
+          '/home': (context) => HomeScreen(),
         },
       ),
     );
