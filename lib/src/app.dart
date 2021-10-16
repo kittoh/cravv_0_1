@@ -1,6 +1,8 @@
+import 'package:cravv_0_1/config/app_router.dart';
 import 'package:cravv_0_1/src/screens/authenticate/login_screen.dart';
 import 'package:cravv_0_1/src/screens/authenticate/register_screen.dart';
 import 'package:cravv_0_1/src/screens/home/home_screen.dart';
+import 'package:cravv_0_1/src/screens/screens.dart';
 import 'package:cravv_0_1/src/services/authentication_service.dart';
 import 'package:cravv_0_1/src/wrapper.dart';
 import 'package:flutter/material.dart';
@@ -17,11 +19,12 @@ class MyApp extends StatelessWidget {
         ),
       ],
       child: MaterialApp(
-        title: 'Test App',
+        title: 'Cravv',
         theme: ThemeData(
           primarySwatch: Colors.red,
         ),
-        initialRoute: '/',
+        onGenerateRoute: AppRouter.onGenerateRoute,
+        initialRoute: HomeScreen.routeName,
         routes: {
           '/': (context) => Wrapper(),
           '/login': (context) => LoginScreen(),

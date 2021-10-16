@@ -1,4 +1,4 @@
-import 'package:cravv_0_1/src/screens/authenticate/log_in_page.dart';
+import 'package:cravv_0_1/src/screens/authenticate/login_screen.dart';
 import 'package:flutter/material.dart';
 
 class Authenticate extends StatefulWidget {
@@ -13,7 +13,7 @@ class _AuthenticateState extends State<Authenticate> {
   Widget build(BuildContext context) {
     // ignore: prefer_const_constructors
     return Center(
-      child: LogInPage(),
+      child: LoginScreen(),
     );
   }
 }
