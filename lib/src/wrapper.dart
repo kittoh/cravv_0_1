@@ -8,6 +8,14 @@ import 'package:provider/provider.dart';
 
 class Wrapper extends StatelessWidget {
   // const Wrapper({Key? key}) : super(key: key);
+  static const String routeName = '/';
+
+  static Route route() {
+    return MaterialPageRoute(
+      builder: (_) => Wrapper(),
+      settings: RouteSettings(name: routeName),
+    );
+  }
 
   @override
   Widget build(BuildContext context) {

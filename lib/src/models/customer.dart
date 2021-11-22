@@ -1,6 +1,6 @@
 class Customer {
-  final String uid;
+  final String userId;
   final String? email;
 
-  Customer({required this.uid, required this.email});
+  Customer({required this.userId, required this.email});
 }

@@ -9,7 +9,7 @@ class AuthenticationService {
     if (customer == null) {
       return null;
     }
-    return Customer(uid: customer.uid, email: customer.email);
+    return Customer(userId: customer.uid, email: customer.email);
   }
 
   // Authentication change Customer stream

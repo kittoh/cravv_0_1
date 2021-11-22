@@ -1,3 +1,6 @@
+import 'package:flutter/material.dart';
+import 'package:provider/provider.dart';
+
 import 'package:cravv_0_1/config/app_router.dart';
 import 'package:cravv_0_1/src/screens/authenticate/login_screen.dart';
 import 'package:cravv_0_1/src/screens/authenticate/register_screen.dart';
@@ -5,8 +8,6 @@ import 'package:cravv_0_1/src/screens/home/home_screen.dart';
 import 'package:cravv_0_1/src/screens/screens.dart';
 import 'package:cravv_0_1/src/services/authentication_service.dart';
 import 'package:cravv_0_1/src/wrapper.dart';
-import 'package:flutter/material.dart';
-import 'package:provider/provider.dart';
 import 'models/customer.dart';
 
 class MyApp extends StatelessWidget {
@@ -24,12 +25,12 @@ class MyApp extends StatelessWidget {
           primarySwatch: Colors.red,
         ),
         onGenerateRoute: AppRouter.onGenerateRoute,
-        initialRoute: HomeScreen.routeName,
+        initialRoute: Wrapper.routeName,
         routes: {
           '/': (context) => Wrapper(),
           '/login': (context) => LoginScreen(),
           '/register': (context) => RegisterScreen(),
-          '/home': (context) => HomeScreen(),
+          // '/home': (context) => HomeScreen(),
         },
       ),
     );
